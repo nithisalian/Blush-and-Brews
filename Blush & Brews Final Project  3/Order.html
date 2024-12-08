@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Instructions & Pickup Information</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mali:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/SophieStyles.css">
+</head>
+<body>
+
+    <header>
+        <div class="header">Online Ordering</div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="Order.html">Order Online</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section id="instructions" class="instructions">
+            <h2>How to Order</h2>
+            <p>It's easy! Here are the steps for ordering:</p>
+            <ol>
+                <li>Select your items: Browse our menu and pick the drinks and treats you love.</li>
+                <li>Add to cart: Once you’ve made your selection, hit the "Place Order" button.</li>
+                <li>Pickup method and time: Select your preferred pickup method and a convenient time.</li>
+            </ol>
+            
+            <h3>Pickup Information</h3>
+            <p><strong>Pickup Hours:</strong></p>
+            <ul>
+                <li>Monday – Friday: 7:00 AM – 6:00 PM</li>
+                <li>Saturday – Sunday: 8:00 AM – 5:00 PM</li>
+            </ul>
+            <p><strong>Address:</strong></p>
+            <p>Blush & Brews</p>
+            <p>123 Java Lane</p>
+            <p>Brewtown, USA 12345</p>
+    
+            <h3>Safety Options</h3>
+            <p>We’re committed to keeping everyone safe! Choose one of our flexible pickup options:</p>
+            <ul>
+                <li><strong>Curbside Pickup:</strong> Stay in your car—we’ll bring your order to you.</li>
+                <li><strong>Contactless Pickup:</strong> Your order will be ready at the designated pickup station, so you can grab it with no contact.</li>
+            </ul>
+        </section>
+    
+
+        <section id="order" class="order-system">
+            <h2>Order Form</h2>
+            <form action="somewebsite.com" method="POST">
+                <label for="Coffee and Espresso">Coffee & Espresso</label>
+                <select id="drink" name="drink" required>
+                    <option value="none"></option>
+                    <option value="type 1">House Brewed Coffee</option>
+                    <option value="type 2">Latte Love</option>
+                    <option value="type 3">Cappuccino Cloud</option>
+                    <option value="type 4">Mocha Magic</option>
+                    <option value="type 5">Caramel Macchiato</option>
+                    <option value="type 6">Iced Cinnamon Toast Latte</option>
+                    <option value="type 7">Affogato</option>
+                </select>
+
+                <label for="Cold Brew and Iced Drinks">Cold Brew & Iced Drinks</label>
+                <select id="Iced Drinks" name="Iced Drinks">
+                    <option value="none"></option>
+                    <option value="type 1">Classic Cold Brew</option>
+                    <option value="type 2">Iced Matcha Latte</option>
+                    <option value="type 3">Iced Caramel Frappe</option>
+                    <option value="type 4">Strawberry Hibiscus Lemonade</option>
+                </select>
+
+                <label for="Teas">Teas & Herbal Infusions</label>
+                <select id="Teas" name="Teas">
+                    <option value="none"></option>
+                    <option value="type 1">Chai Latte</option>
+                    <option value="type 2">Matcha Green Tea Latte</option>
+                    <option value="type 3">Lavender Earl Grey</option>
+                    <option value="type 4">Berry Hibiscus Iced Tea</option>
+                    <option value="type 5">Hot Ginger Lemon Honey</option>
+                </select>
+
+                <label for="Specialty">Specialty Drinks & Sweet Indulgences</label>
+                <select id="Specialty" name="Specialty">
+                    <option value="none"></option>
+                    <option value="type 1">Nutella Hot Chocolate</option>
+                    <option value="type 2">Dirty Chai</option>
+                    <option value="type 3">Iced Caramel Brownie Frappe</option>
+                    <option value="type 4">Coconut Cream Cold Brew</option>
+                    <option value="type 5">Pumpkin Spice Latte (Seasonal)</option>
+                </select>
+
+                <label for="Pastries">Pasteries & Treats</label>
+                <select id="Pastries" name="Pastries">
+                    <option value="none"></option>
+                    <option value="type 1">Vanilla Bean Scones</option>
+                    <option value="type 2">Chocolate Croissants</option>
+                    <option value="type 3">Mini Lemon Poppy Seed Muffins</option>
+                    <option value="type 4">Cinnamon Roll Bites</option>
+                    <option value="type 5">Almond Biscotti</option>
+                    <option value="type 6">Blueberry Cheesecake Bars</option>
+                </select>
+
+                <label for="Light Bites">Light Bites & Sandwiches</label>
+                <select id="Light Bites" name="Light Bites">
+                    <option value="none"></option>                    
+                    <option value="type 1">Avocado Toast</option>
+                    <option value="type 2">Caprese Croissant Sandwich</option>
+                    <option value="type 3">Grilled Cheese & Tomato Soup</option>
+                    <option value="type 4">Honey & Fig Brie Baguette</option>
+                </select>
+
+                <label for="Cookies">Cookies & Sweets</label>
+                <select id="Cookies" name="Cookies">
+                    <option value="none"></option>
+                    <option value="type 1">Salted Caramel Cookies</option>
+                    <option value="type 2">Mini Cheesecake Bites</option>
+                    <option value="type 3">Mocha Brownies</option>
+                    <option value="type 4">Red Velvet Cake Pops</option>
+                </select>
+
+                <label for="Seasonal">Specials & Seasonal Offerings</label>
+                <select id="Seasonal" name="Seasonal">
+                    <option value="none"></option>
+                    <option value="type 1"> Autumn Spiced Latte (Fall & Winter)</option>
+                    <option value="type 2">Raspberry Almond Croissant (Spring)</option>
+                    <option value="type 3">Citrus Matcha Cooler (Summer)</option>
+                </select>
+
+                <label for="pickup">Pickup or Delivery:</label>
+                <select id="pickup" name="pickup">
+                    <option value="pickup">Pickup</option>
+                    <option value="delivery">Delivery</option>
+                </select>
+
+                <label for="pickup-time">Preferred Pickup Time:</label>
+                <input type="time" id="pickup-time" name="pickup-time" required>
+
+                <button type="submit">Place Order</button>
+            </form>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; Comp126 Final Project </p>
+    </footer>
+</body>
+</html>

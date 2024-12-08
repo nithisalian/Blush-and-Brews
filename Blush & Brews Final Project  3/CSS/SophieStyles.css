@@ -1,0 +1,160 @@
+body {
+  font-family: 'Mali', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FDE2E2;
+  color: #333333; 
+}
+
+.header {
+  background-color: #D770A0; 
+  color: #FFFFFF; 
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem; 
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: #D15589; 
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column; 
+  gap: 1rem; 
+}
+
+.navbar li {
+  display: block;
+}
+
+.navbar a {
+  color: #FFFFFF; 
+  font-size: 1rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar li a:hover {
+  background-color: #B02F63; 
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.content {
+  padding: 2rem;
+}
+
+.instructions {
+  background-color: #FFE5EC; 
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 100%; 
+}
+
+.order-system h2 {
+  color: #B02F63; 
+  font-size: 1.5rem; 
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+form {
+  background-color: #FFB6D1;
+  padding: 1.5rem; 
+  border-radius: 8px;
+  border: 2px solid #D7A6D3;
+  max-width: 100%; 
+  margin: 0 auto;
+}
+
+form label {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+form select,
+form input,
+form button {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1.2rem;
+  border-radius: 4px;
+  border: 1px solid #D7A6D3;
+  font-size: 1rem;
+}
+
+form button {
+  background-color: #C05D88; 
+  color: #FFFFFF; 
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: #B02F63; 
+}
+
+.instructions {
+  background-color: #FFE5EC;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 100%; 
+}
+
+.instructions h2 {
+  color: #B02F63; 
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.instructions ol {
+  padding-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.instructions h3 {
+  color: #A74663; 
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.instructions p {
+  line-height: 1.6;
+}
+
+/* Footer styles */
+footer {
+  background-color: #D770A0; 
+  color: #FFFFFF; 
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.875rem;
+}
+
+@media (min-width: 768px) {
+  .navbar ul {
+    flex-direction: row; 
+    gap: 2.5rem;
+  }
+
+  .instructions,
+  form {
+    max-width: 800px; 
+  }
+}
+
+
+
+

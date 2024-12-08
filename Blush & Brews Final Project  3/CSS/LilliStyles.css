@@ -1,0 +1,139 @@
+body {
+    font-family: 'Mali', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FDE2E2;
+    color: #333333; 
+  }
+  
+  .header {
+    background-color: #D770A0; 
+    color: #FFFFFF; 
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem; 
+    font-weight: bold;
+  }
+  
+  .navbar {
+    background-color: #D15589; 
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row; 
+    gap: 2.5rem;
+  }
+  
+  .navbar a {
+    color: #FFFFFF; 
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    background-color: #B02F63; 
+    padding: 6px 10px;
+    border-radius: 5px;
+  }
+  
+  .menu-container {
+    display: grid;
+    grid-template-areas:
+      "coffee tea"
+      "pastries bites"
+      "specialty coldbrew"
+      "cookies seasonal";
+    grid-gap: 20px;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .menu-category {
+    background-color: #FFE5EC; 
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-category:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .menu-category h2 {
+    color: #B02F63; 
+    font-size: 1.5rem; 
+    border-bottom: 2px solid #B02F63;
+    margin-bottom: 1rem;
+  }
+  
+  .menu-category ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-category li {
+    margin-bottom: 1rem;
+  }
+  
+  .menu-category h3 {
+    color: #A74663; 
+    font-size: 1.2rem; 
+    margin-bottom: 0.5rem;
+  }
+  
+  .menu-category p {
+    font-size: 1rem; 
+    color: #333333; 
+  }
+  
+  footer {
+    background-color: #D770A0; 
+    color: #FFFFFF; 
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.875rem;
+  }
+  
+  #coffee { grid-area: coffee; }
+  #tea { grid-area: tea; }
+  #pastries { grid-area: pastries; }
+  #bites { grid-area: bites; }
+  #specialty { grid-area: specialty; }
+  #cookies { grid-area: cookies; }
+  #coldbrew { grid-area: coldbrew; }
+  #seasonal { grid-area: seasonal; }
+  
+  @media (max-width: 768px) {
+    .menu-container {
+      grid-template-areas:
+        "coffee"
+        "tea"
+        "pastries"
+        "bites"
+        "specialty"
+        "coldbrew"
+        "cookies"
+        "seasonal";
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .menu-container {
+      grid-template-areas:
+        "coffee tea pastries"
+        "bites specialty coldbrew"
+        "cookies cookies seasonal";
+    }
+  }
+  
