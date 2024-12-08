@@ -1,1 +1,1 @@
-# Blush-and-Brews
+# Blush-and-Brews is a coffee shop located in Brewtown, USA. There are a numerous amount of drinks that you can try. We used HTML/CSS to create this website with a home, menu, contact, and online order page.
